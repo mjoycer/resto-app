@@ -22,6 +22,12 @@ View live app here:
 
 https://mjoycer-resto-app.herokuapp.com/
 
+## Dependencies
+- react-bootstrap
+- react-bootstrap-icons
+- react-hook-form
+- react-notification-badge
+- react-notifications
 ## Run Locally
 
 Clone the project
