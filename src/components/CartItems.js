@@ -10,7 +10,7 @@ const CartItems = () => {
 
     useEffect(() => {
         let total = 0;
-        cartItems.map(cartItem => { total += (cartItem.quantity * cartItem.price) });
+        cartItems.map(cartItem => { total += (cartItem.quantity * cartItem.price); return total });
         setCartTotal(total);
     }, [cartItems]);
 
